@@ -16,7 +16,6 @@ class AddPostForm(forms.ModelForm):
         return title
 
     class Meta:
-
         model = Women
         fields = ['title', 'slug', 'content', 'photo', 'is_published', 'cat']
         widgets = {
